@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+
+.titulo{
+    text-align: center;
+    font-size: 50px;
+
+}
+
+.volver{
+  text-align: center;
+  font-size: 24px;
+  cursor: pointer;
+  margin: none;
+  display: inline-block;
+}
+
+.volver:hover {
+  text-decoration: underline;
+  color: rgb(70, 70, 70);
+
+  
+}
+
+
+.formulario__fondo{
+
+  padding: 25px;
+}
+
+
+
+.inputs__fondo{
+  background-color: white;
+  padding: 10px;
+  border: 1px solid rgba(128, 128, 128, 0.445);
+  border-radius: 8px ;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.11);
+}
+.flecha{
+  font-size: 30px;
+}
+
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "roboto", sans-serif;
+  }
+
+
+
+
+label{
+  font-size: 20px;
+}
+
+small{
+  color: black;
+};
+

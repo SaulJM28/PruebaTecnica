@@ -1,0 +1,13 @@
+create database prueba;
+use prueba;
+
+create table usuarios(
+    id_usu int(4) AUTO_INCREMENT not null primary key,
+    nombre varchar(30),
+    puesto varchar(30),
+    ubicacion varchar(100)
+);
+
+
+
+insert into usuarios values("", "saul", "desarrollador", "Queretaro");
