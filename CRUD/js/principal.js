@@ -41,7 +41,7 @@ function delete_usuario(id) {
 
 function delete_usuario_modal() {
   let id_modal = $("#id_modal").val();
-  alert(id_modal);
+  //ert(id_modal);
   $.ajax({
     type: "POST",
     url: "./includes/delete_usuario_back.php",

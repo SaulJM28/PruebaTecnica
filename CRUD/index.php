@@ -105,7 +105,7 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-        <button type="button" class="btn btn-danger" onclick="delete_usuario_modal()">Eliminar Usuario</button>
+        <button type="button" class="btn btn-danger" onclick="delete_usuario_modal()">Confirmar</button>
       </div>
     </div>
   </div>
